@@ -4,6 +4,7 @@
     "bcrypt": "^5.1.0",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "jest": "^29.5.0",
     "jsonwebtoken": "^9.0.0",
     "pg": "^8.11.0",
     "sequelize": "^6.32.1"
@@ -12,7 +13,6 @@
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "NODE_ENV=test jest --coverage --verbose",
     "dev": "NODE_ENV=development nodemon index.js",
